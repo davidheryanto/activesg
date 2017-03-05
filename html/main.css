@@ -1,0 +1,44 @@
+body {
+  padding-top: 50px;
+  height: 100%
+}
+
+html {
+  height: 100%
+}
+
+.navbar-header {
+  margin-right: 50px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#select-date {
+  text-indent: 22%;
+  font-size: 100%;
+}
+
+@media (min-width: 768px) {
+  #select-date {
+    margin-top:7px;
+  }
+}
+
+.navbar-nav {
+  margin-bottom: 0px;
+}
+
+#info {
+  position: absolute;
+  z-index: 100;
+  background: rgba(255,255,255,0.35);
+  border-radius: 2p;
+  border-radius: 2px;
+  padding: 5px;
+  bottom: 20px;
+  left: 10px;
+  text-shadow: 1px 1px rgba(255,255,255,0.75);
+}
